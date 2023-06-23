@@ -1,0 +1,1 @@
+manifesto gnu bot
