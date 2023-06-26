@@ -1,0 +1,5 @@
+venv
+geckodriver.log
+graph.png
+titulos.xlsx
+__pycache__
