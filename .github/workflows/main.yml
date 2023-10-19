@@ -12,3 +12,11 @@ jobs:
         run: |
           echo Iniciando Build...
           echo Branch utilizada ${{github.ref_name}}, Evento ${{github.event_name}}
+  test:
+    needs: compile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        run: |
+          echo Iniciando Teste...
+          echo Colocar os testes do PyTest
